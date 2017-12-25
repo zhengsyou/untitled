@@ -14,9 +14,11 @@ TEMPLATE = app
 
 SOURCES += main.cpp\
         mainwindow.cpp \
-    cznetworkaccessmanager.cpp
+    cznetworkaccessmanager.cpp \
+    test/cznetworkaccessmanager.cpp
 
 HEADERS  += mainwindow.h \
-    cznetworkaccessmanager.h
+    cznetworkaccessmanager.h \
+    test/cznetworkaccessmanager.h
 
 FORMS    += mainwindow.ui
